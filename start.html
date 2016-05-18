@@ -23,7 +23,8 @@ It must work specifically for them, so do the minimum necessary.
       .tip img { height: 2rem; }
       .tip { color: #999; }
       .highlight { color: #0f0; }
-      .action::before, .question::before, .discuss::before {
+      .break { background: #0f0; color: #000; }
+      .demo::before, .action::before, .question::before, .discuss::before {
         display: block;
         position: fixed;
         text-align: center;
@@ -43,6 +44,7 @@ It must work specifically for them, so do the minimum necessary.
       .action::before { content: "action"; }
       .discuss::before { content: "discuss"; }
       .question::before { content: "question"; }
+      .demo::before { content: "demo"; }
       .goal {  }
       .goal::before, .lesson::before {display:block; color: #999;  font-family: "Offside"; }
       .lesson::before { content: "lesson"; }
@@ -426,11 +428,13 @@ class: discuss
 template: anyquestions
 
 ---
+name: break
+class: break
 # Break
 
 ---
-
-
+name: stage-customer
+# 3 entrepreneurial skills 
 1. .highlight[Understanding customers needs]
 1. Figuring out a good product
 1. Deciding how to make money
@@ -520,15 +524,7 @@ They help you get the right
 * product
 
 --
-* business model
-
----
-class: middle, center
-# For new businesses
-
-.layer-small[Do we have the right product?]
-.layer-medium[Do we understand their needs?]
-.layer-large[Have we found the right customer?]
+* customer
 
 ---
 
@@ -537,6 +533,14 @@ Running experiments without first understanding is like shooting blind.
 
 ![](images/blindarcher.jpg)
 
+
+---
+class: middle, center
+# For new businesses
+
+.layer-small[Do we have the right product?]
+.layer-medium[Do we understand their needs?]
+.layer-large[Have we found the right customer?]
 
 ---
 
@@ -589,8 +593,8 @@ Not general, because generalities hide the opportunities to help.
 # Talk about their life, not your idea
 
 .layer-small[Experiment]
-.layer-medium[Investigate]
-.layer-large[Observe]
+.layer-medium[.highlight[Investigate]]
+.layer-large[.highlight[Observe]]
 
 
 ---
@@ -871,6 +875,17 @@ class: middle, center
 ##So we can reorganise them to spot patterns later.
 
 ---
+template: stage-customer
+---
+
+# Three types of learning
+
+.layer-small[Experiment]
+.layer-medium[.highlight[Investigate]]
+.layer-large[Observe]
+
+
+---
 class: demo
 
 # Let's try it!
@@ -886,6 +901,21 @@ See how many you can hear, and if you can write them all down.
 # Real Customers
 Now we're hitting the real world to learn from real customers.
 
+
+---
+class: question
+
+# If you were to write down your customers goals, obstacles and the actions they take now on paper, what percentage of that would be right?
+
+---
+
+# We need a way to know which parts of what we beleive are actually true.
+
+---
+
+#Customer Compass
+
+A simple tool that describes what we beleive 
 ---
 
 When you drive at night, you don't need to see the whole way, just 100 metres in front of you.  
@@ -1015,6 +1045,15 @@ Then, look for patterns.
 
 ---
 
+# How many interviews is enough?
+
+You keep going until you stop learning.
+
+If you're speaking to a specific enough customer group, this usually happens by 5 or 10 conversations.
+
+---
+template: break
+---
 
 # Being tired and being motivated
 
