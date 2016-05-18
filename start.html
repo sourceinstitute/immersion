@@ -6,11 +6,13 @@ It must work specifically for them, so do the minimum necessary.
     <title>Startup Immersion</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <style type="text/css">
+      @import url(https://fonts.googleapis.com/css?family=Oxygen);
+      @import url(https://fonts.googleapis.com/css?family=Offside);
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
       @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
       @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 
-      body { font-family: 'Droid Serif'; }
+      body { font-family: 'Oxygen'; }
       h1, h2, h3 { font-family: 'Yanone Kaffeesatz'; font-weight: normal; }
       .remark-slide-content { background: #000; color: #eee; font-size: 30px; vertical-align: middle;}
       .remark-container { background: #000; }
@@ -21,25 +23,30 @@ It must work specifically for them, so do the minimum necessary.
       .tip img { height: 2rem; }
       .tip { color: #999; }
       .highlight { color: #0f0; }
-      .discuss::before {
+      .action::before, .question::before, .discuss::before {
         display: block;
-        content: "discuss";
         position: fixed;
         text-align: center;
-        right: -4%;
+        right: -10%;
         top: 5%;
-        width: 30%;
+        width: 40%;
         -webkit-transform:rotate(30deg);
         -moz-transform:rotate(30deg);
         -o-transform:rotate(30deg);
         -ms-transform:rotate(30deg);
         background: #0f0;
         color: #000;
-        font-family: "Oxygen", sans-serif;
+        font-family: "Offside", sans-serif;
+        text-transform: lowercase;
       }
 
+      .action::before { content: "action"; }
+      .discuss::before { content: "discuss"; }
+      .question::before { content: "question"; }
       .goal {  }
-      .goal::before {display:block; color: #999; content: "goal"}
+      .goal::before, .lesson::before {display:block; color: #999;  font-family: "Offside"; }
+      .lesson::before { content: "lesson"; }
+      .goal::before { content: "goal"; }
       .circle { border: 1px solid #fff; 
       
         border-radius: 50%;
@@ -100,8 +107,8 @@ A startup usually means a new technology company that's looking for a way to sca
 ---
 
 #.goal[We're going to think like entrepreneurs]
-## You can learn to think like an entrepreneur
-## To start, let's reflect on how we think.
+You can learn to think like an entrepreneur.
+To start, let's reflect on how we think.
 
 
 ---
@@ -112,18 +119,19 @@ class: discuss
 # Who knows experienced founders?
 
 ---
-
-template: base
+class: discuss
 
 # What's the difference in mindset between a first-time founder and an experienced founder?
 
 # What's important to each of them?
 
 ---
+class: discuss
 
 # Who values their ideas more?
 
 ---
+class: discuss
 
 # Who values their time more?
 
@@ -131,33 +139,58 @@ template: base
 
 # First-timers tend to feel like their ideas are valuable and need to be protected.
 
+---
+
 # Experienced founders have too many ideas. They want their ideas to evolve quickly, so they know they're investing their time in something that works.
 ---
 
 
-# You learn by doing.
 
 ## Common misconceptions
+1. You need to have one great idea before you start
 1. You need to protect your idea
 1. You need to learn skills before you start
 1. You need to quit your job or take big risks
----
-
-
-# Product / Market Fit
-
-Finding the right group of customers and the right product for them.
-
-You get to change both. You need to find a match.
 
 ---
+# You learn by doing.
+---
 
+# Time is valuable
 
-# Your starting point isn't what you think
+Experienced entrepreurs know how to make good decisions fast.
+
+In Immersion, we'll use time limits to learn about pace and rhythm.
 
 ---
 
+# At the first stage, you only need to get two things right:
 
+## 1. Your vision
+## 1. Your starting point
+
+---
+
+
+## To find your starting point, you need to find a match.
+
+This is called *finding product/market fit.*
+
+Find the right group of customers and the right product for them.
+
+You need to change both. 
+
+
+
+---
+
+
+# Your starting point isn't what you think.
+
+---
+class: question
+
+# What was their starting point?
 ![](images/facebook2004.png)
 
 ---
@@ -166,7 +199,9 @@ You get to change both. You need to find a match.
 # The first target market: Harvard students
 
 ---
+class: question
 
+# What was their starting point?
 
 ![](images/amazon.jpg)
 
@@ -209,16 +244,6 @@ Building trust with clients: http://community.source.institute/t/trust-and-credi
 
 More videos: http://community.source.institute/c/the-sources
 
-
----
-
-
-# At the first stage, you only need to get three things right:
-
-## 1. Your team
-## 1. Your vision
-## 1. Your starting point
-
 ---
 
 
@@ -228,6 +253,9 @@ But they are good starting points.
 
 ---
 
+# You can change your starting point as long as you have a clear vision
+---
+
 
 # Your vision
 
@@ -235,7 +263,7 @@ But they are good starting points.
 1. **What** do you want to help them do?
 
 ---
-
+class: action
 
 ## Let's start.
 
@@ -253,6 +281,7 @@ Nobel Peace Laureate
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6IgOZ0WSHxw" frameborder="0" allowfullscreen></iframe>
 
 ---
+class: action
 
 
 # Write down **your vision** on paper with a felt.
@@ -280,7 +309,7 @@ I want to help ------ acheive -------.
 
 
 ---
-
+class: action
 ## Let's start presenting. Who's first?
 ---
 
@@ -298,6 +327,7 @@ I want to help ------ acheive -------.
 ## Don't make a kid sandwich out of your ideas
 
 ---
+class: action
 
 # You have 20 minutes to find your team.
 
@@ -309,12 +339,24 @@ A musician who created a $200M company
 <iframe width="420" height="315" src="https://www.youtube.com/embed/8RvPeVUE1Ko" frameborder="0" allowfullscreen></iframe>
 
 ---
+class: question
+
 # What was Derek's vision?
 ---
+# What was Derek's vision?
+.profile[![](images/sivers.png)]
+"Help musicians do whatever they need to do to release their CD."
+
+---
+class: question
 
 # What was Derek's starting point?
 ---
+# What was Derek's starting point?
 
+.profile[![](images/sivers.png)]
+A link at the bottom of his band website for other bands in New York.
+---
 .profile[![](images/sivers.png)]
 # "Success comes from persistently improving and inventing, not from persistently pushing what's not working."
 
@@ -369,10 +411,15 @@ Entrepreneurs ask for help.  They make friends and develop strong relationships 
 Entrepreneurs mainly look at risk in terms of what they can afford to lose. They don't allow a big prize to over-extend themselves.
 
 ---
+class: discuss
 
 # Reflect
 
-## How can you start to think this way with your idea?
+## How can you start to think this way with your ideas?
+
+---
+
+# .lesson[Being an entrepreneur involves exploration and discovery.  You have to know when to persist, and when to look for another way.]
 
 ---
 
@@ -408,7 +455,7 @@ class: middle, center
 # Three types of learning
 
 .layer-small[Experiment]
-.layer-medium[Understand]
+.layer-medium[Investigate]
 .layer-large[Observe]
 
 ---
@@ -417,7 +464,7 @@ class: middle, center
 # The same with Science
 
 .layer-small[Experiment]
-.layer-medium[Understand]
+.layer-medium[Investigate]
 .layer-large[Observe]
 
 
@@ -542,7 +589,7 @@ Not general, because generalities hide the opportunities to help.
 # Talk about their life, not your idea
 
 .layer-small[Experiment]
-.layer-medium[Understand]
+.layer-medium[Investigate]
 .layer-large[Observe]
 
 
@@ -1314,7 +1361,7 @@ class: center
 # Three types of learning
 
 .layer-small[Experiment]
-.layer-medium[Understand]
+.layer-medium[Investigate]
 .layer-large[Observe]
 
 
