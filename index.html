@@ -24,9 +24,10 @@
       .bad {color: #f00;}
       .tip img { height: 2rem; }
       .tip { color: #999; }
+      .small {font-size: 20px;}
       .highlight { color: #0f0; }
       .break { background: #0f0; color: #000; }
-      .demo::before, .action::before, .question::before, .discuss::before {
+      .present:before, .ideas:before, .actionable:before, .demo::before, .action::before, .question::before, .discuss::before {
         z-index: 10;
         display: block;
         position: fixed;
@@ -46,48 +47,26 @@
 
       .action::before { content: "action"; }
       .discuss::before { content: "discuss"; }
+      .present::before { content: "present"; }
       .question::before { content: "question"; }
       .demo::before { content: "demo"; }
+      .actionable::before { content: "actionable?"; }
+      .ideas::before { content: "ideas"; }
       .goal {  }
       .goal::before, .lesson::before {display:block; color: #999;  font-family: "Offside"; }
       .lesson::before { content: "lesson"; }
       .goal::before { content: "goal"; }
-      .circle { border: 1px solid #fff; 
-        border-radius: 50%;
-        behavior: url(PIE.htc); /* remove if you don't care about IE8 */
-        width: 200px;
-        height: 200px;
-        padding: 20px;
-        margin: -10px;
-      
-      }
+      .circle { border: 1px solid #fff; border-radius: 50%; behavior: url(PIE.htc); /* remove if you don't care about IE8 */ width: 200px; height: 200px; padding: 20px; margin: -10px; }
       .layer-large { display: block; border: 1px solid #fff; padding: 0 20px 20px 20px; width: 100%; text-align: center; }
       .layer-medium { display: block; border: 1px solid #fff; padding: 0 20px 20px 20px; width: 70%;  margin-left: 15%; text-align: center;}
       .layer-small { display: block; border: 1px solid #fff; padding: 0 20px 20px 20px; width: 50%; margin-left: 25%; text-align:center;}
       .remark-slide-content img {
         max-width: 100%;
       }
-      .profile img {
-        float: right;
-        width: 20%;
-        margin-left: 5%;
-      }
-      .underline {
-        padding: 0px 10px;
-        border: 1px dashed #ccc;
-        color: #eee;
-      }
-      .timer {
-        position: absolute;
-        top: 0px;
-        left:0;
-        z-index: 0;
-        width: 100%;
-        text-align: center;
-        background: #222;
-        color: #888;
-        cursor: pointer;
-      }
+      .profile img { float: right; width: 20%; margin-left: 5%; }
+      .underline { padding: 0px 10px; border: 1px dashed #ccc; color: #eee; }
+      .timer { position: absolute; top: 0px; left:0; z-index: 0; width: 100%; text-align: center; }
+      .timer, .inline-timer { background: #220; color: #ccc; cursor: pointer; }
     </style>
   </head>
   <body onload="var slideshow = remark.create();">
@@ -114,8 +93,8 @@ class: center, middle
 
 ---
 
-# A structured process to launch your idea
-1. Get a feel for how entrepreneurs think differently
+# Today we'll cover
+1. Thinking like an entrepreneur
 1. Understanding customers needs
 1. Figuring out a good product
 1. Deciding how to make money
@@ -277,7 +256,40 @@ I want to help .underline[a wide group of people] acheive .underline[something i
 .timer[2 minutes]
 ---
 
+-
+class: action
 
+
+# Write down **your vision** on paper with a felt.
+
+I want to help ------ acheive -------.
+
+---
+
+
+# Team formation
+
+1. Each person wil have 30 seconds to present their vision and their idea of their starting point.  
+
+--
+
+1. Then post your sheet on a wall somewhere in the room so interested people know where to find you.
+
+--
+
+1. Teams must be 3 to 5 people. (If you can't find 2 people for your team, join another.)
+
+--
+
+1. You'll have 20 minutes to talk to people about their ideas and join a team. 
+
+
+---
+class: present
+## Let's start presenting. Who's first?
+
+.timer[30 seconds]
+---
 
 # When you let a kid make a sandwich
 ---
@@ -291,6 +303,11 @@ I want to help .underline[a wide group of people] acheive .underline[something i
 
 ## Don't make a kid sandwich out of your ideas
 
+---
+class: action
+
+# You have 20 minutes to find your team.
+.timer[20 minutes]
 ---
 
 
@@ -317,7 +334,7 @@ You can choose your customer.
 ---
 class: question
 
-# What was specific about their starting point?
+## What was specific about their starting point?
 ![](images/facebook2004.png)
 
 ---
@@ -328,7 +345,7 @@ class: question
 ---
 class: question
 
-# What was specific about their starting point?
+## What was specific about their starting point?
 
 ![](images/amazon.jpg)
 
@@ -457,7 +474,9 @@ class: break
 
 ---
 name: stage-customer
-# 3 entrepreneurial skills 
+
+# Today we'll cover
+1. Thinking like an entrepreneur
 1. .highlight[Understanding customers needs]
 1. Figuring out a good product
 1. Deciding how to make money
@@ -550,17 +569,10 @@ They help you get the right
 * customer
 
 
----
-
-
-Running experiments without first understanding is like shooting blind.
-
-![](images/blindarcher.jpg)
-
 
 ---
 class: middle, center
-# For new businesses
+# Salim had the wrong product because he had the wrong customer
 
 .layer-small[Do we have the right product?]
 .layer-medium[Do we understand their needs?]
@@ -569,18 +581,30 @@ class: middle, center
 ---
 
 
+Running experiments without first understanding is like shooting blind.
+
+![](images/blindarcher.jpg)
+
+---
+
 # How do we make sure our arrows are on target?
 
 ---
 
 
-# How do we learn what really matters to them from the start?
+# How do we learn what really matters to our customers from the start?
 
 ---
 
+# You focus on getting the facts.
+Hard facts are like landmarks. You know where you are and where to go.
+
+---
 
 #Actionable questions
 give you **facts** you can **act on**.
+
+They give you an **understanding** of the customer that allows you to **respond** with the right product.
 
 ---
 
@@ -658,6 +682,7 @@ If they don't want to talk about that topic, that topic probably isn't that impo
 1. Actionable questions
 
 --
+
 **Note**: there's no script.  This is _exploration._
 
 ---
@@ -682,6 +707,7 @@ Do you have a minute to help me?  I'm a student reseaching how food retailers in
 # .good[Actionable] question or .bad[bad] question?
 
 ---
+class: actionable 
 # Can you please tell me about the last time you introduced a new product. Where did it start?
 ---
 #.good[Can you please tell me about the last time you introduced a new product. Where did it start?]
@@ -690,12 +716,9 @@ Do you have a minute to help me?  I'm a student reseaching how food retailers in
 "We hear about new products from head office.  We usually get around 2 or 3 months notice before we start selling them."
 
 ---
+class: actionable 
 
 # Does this happen frequently?
-
----
-
-What are the 3 rules for actionable questions?
 
 ---
 
@@ -705,14 +728,21 @@ What are the 3 rules for actionable questions?
 "Not really."
 
 ---
+class: question
+
+What are the 3 rules for actionable questions?
+
+---
+class: discuss
 
 #.bad[Does this happen frequently?]
 
 Let's fix it and try again.
 
 ---
+class: actionable 
 
-# When does this problem pop up?
+# When does this pop up?
 
 ---
 
@@ -724,6 +754,7 @@ Let's fix it and try again.
 ## It’s still too general: we want the specifics!
 
 ---
+class: actionable 
 
 # When was the last time this went off track?
 
@@ -743,6 +774,7 @@ Great stuff, you found a problem!
 Go deeper!
 ---
 
+class: actionable 
 
 # How do you deal with this problem?
 
@@ -754,11 +786,13 @@ Go deeper!
 "We don't."
 
 ---
+class: discuss
 # .bad[How do you deal with this problem?]
 
 Oh no!  Let's fix this question and try again.
 
 ---
+class: actionable 
 
 # How did you deal with this last time?
 
@@ -769,6 +803,8 @@ Oh no!  Let's fix this question and try again.
 
 "I requested some farmer information from our distributors, and started a little binder."
 
+See what asking for specifics can reveal?
+
 ---
 
 
@@ -777,6 +813,7 @@ Now we're learning!
 Knowing what they tried tells us how they see the problem, and what it's worth to them.
 
 ---
+class: actionable 
 
 # Can you show me how you did it?
 
@@ -802,6 +839,7 @@ There's a lot more to learn when you can see it.
 
 
 ---
+class: actionable 
 
 # Why did you go to the farm?
 
@@ -821,10 +859,12 @@ Think like an apprentice!
 "Well, a year ago, we had a problem with one of our suppliers. They couldn't deliver and that affected our reputation.  So I like to know more about our suppliers and farmers."
 
 ---
+class: actionable 
 
 # How much would you pay for a solution to know all that information?
 
 ---
+class: discussion
 
 # .bad[How much would you pay for a solution to know all that information?]
 
@@ -832,9 +872,10 @@ Opinion and future!  Make this question give you actionable facts.
 
 --
 
-*Hint*: what we really want to know is what is it worth.
+*Hint*: what we really want to know is what is it worth. Ask about *their life!*
 
 ---
+class: actionable 
 
 # How much did this cost you?
 
@@ -860,7 +901,7 @@ If you’re in the mindset of a learner, trying to understand the customer, you�
 ---
 
 
-# Conversation is a skill, not a process.
+# Conversation is a skill
 
 You have to know the right questions, and you have to know how to listen.
 ---
@@ -929,28 +970,25 @@ template: stage-customer
 
 .layer-small[Experiment]
 .layer-medium[.highlight[Investigate]]
-.layer-large[Observe]
+.layer-large[.highlight[Observe]]
 
 
 ---
-# Recording on cards
+# Recording what you hear
 
-##So we can reorganise them to spot patterns later.
+Record *exact words* and *organise by signals.*
 
+That way, we can spot patterns later.
 
 ---
 
 class: demo
 
-# Let's try it!
-
 ![](images/signals.png)
 
-I'll interview a volunteer about their travel, and point the signals I hear.
+Let's try it. I'll interview a volunteer about their travel, and point the signals I hear.
 
-See how many you can hear, and if you can write them all down.  
-
-**Tips**: Write 2-3 key words per card. Aim for 2 cards per minute.
+Write 2-3 key words per signal. Aim for 2 signals per minute.
 
 
 ---
@@ -979,46 +1017,42 @@ If you were to write down your customers goals, obstacles and what they do now, 
 # We need a way to know which parts of what we beleive are actually true.
 
 ---
+
+#We're going to map out our ideas with **Use Cases**.
+
+Use Cases are a description of the scenario where your customer uses your product.
+
+> As a .underline[specific customer type], I need .underline[a product] so that I can .underline[a goal in my life]. 
+
+---
 class: action
 
-#Customer Compass
+#Use Case brainstorm!
 
-A simple tool to find a good first customer.
-
-1. Grab a compass and some sticky notes (1 minute)
+1. Everyone get in your groups, grab a pen and some sticky notes (.inline-timer[1 minute])
 --
 
-2. Write your target customer in the centre. (1 minute)
+2. Individually come up with 4 use case ideas in your vision. One per sticky note. (.inline-timer[2 minutes])
 --
 
-3. Come up with at least 4 goals your customer has now (before they know you exist.)  What are _their_ words? (4 minutes)
---
+3. Share your ideas with your group and make a master list.(.inline-timer[4 minutes]) 
 
-4. What do they do about it now? For each goal, what's the action they take? (2 minutes)
 ---
 When you drive at night, you don't need to see the whole way, just 100 metres in front of you.  
 ![](images/headlights.jpg)
 ---
 
-We only pick one learning topic at a time. 
+In the same way, we only pick one learning topic at a time. 
 
-That way, we learn as a team, we learn quickly, and our discoveries direct our next learning topic.
+We learn as a team, we learn quickly, and our discoveries direct our next learning topic.
 
 ---
 class: action
-# Pick one of their goals as your learning topic
+# Pick **just one** of their goals as your learning topic
 
 This is what you'll learn about in the next 25 minutes. You can pick a different customer goal after.
 
 ## "How do you --------?"
-
-
----
-
-# One more tip
-Ask open-ended questions (who, how, why, what, when, where) not yes/no questions
-
-Remember, learn about their life, avoid talking about your idea.
 
 ---
 class: action
@@ -1036,10 +1070,19 @@ What are some actionable questions?
 * Aim for at least 3 interviews.
 * You have 25 minutes
 
-** BE BACK ON TIME! **
+.highlight[** BE BACK ON TIME! ** ]
+If you're not done in 25 minute, come back anyway. You'll get another try.
+.timer[25 minutes]
 
 ---
 
+# One more tip
+Ask open-ended questions (who, how, why, what, when, where) not yes/no questions
+
+Remember, learn about their life, avoid talking about your idea.
+
+---
+class: discuss
 
 # How did the conversations go?
 
@@ -1047,34 +1090,21 @@ Let's share. What worked and what didn't work for you?
 
 ---
 
-template: anyquestions
-
----
-
-
-# Prepare for analysis
-
-* Cut out your cards
-* You have 2 minutes
-
-**Tip:** Cut them out in strips.
-
----
-
 # Analysis has 3 phases
 
 1. Help each other understand the signals
-1. Update our compass
-1. Choose the next topic
+1. Update our use case map
+1. Choose the next learning topic
 
 We have to do these all in 15 minutes.
 
 ---
+class: action
 
-# Goal: understand what the other's learned from their customer conversations
-* Lay out all the cards so everyone can see them.
-* Read the others silently.  If you have a question about what they said, point to the card and ask.
-* You have 3 minutes
+# Understand what the other's learned from their customer conversations
+* Lay out all the notes so everyone can see them.
+* Read the others silently.  If you have a question about what was meant, point to the signal and ask.
+.timer[3 minutes]
 
 ---
 
@@ -1085,62 +1115,67 @@ There will be too much information.
 There will be not enough information.
 
 ---
+class: action
 
-# Goal: spot patterns as a team
+# Spot patterns as a team
 
-## Update your compass
-* Lay out the cards on your compass
-* Group them if it makes sense
+## Update your use case map
+* Cross off any use cases that are not relevant
+* Add any new use cases you can think of 
 
 ### Rules:
-* anybody can move a card, even if someone else already moved it.
-* if you move a card, you have to explain why.  What are you thinking?
-* You have 5 minutes
+* If you add or remove a use case, you have to explain why.  What are you thinking?
+* Anybody can cross off or add a use case.  You can readd a use case if you want.
+
+.timer[5 minutes]
 
 
 ---
+class: action
 
 # Pick your next learning goal
 
-* Pick another customer goal
-* You have 2 minutes
+Remember, our learning goals are to understand something from the customers' perspective. 
 
 ## "How do you --------?"
+.timer[2 minutes]
+
 ---
 class: question
 
 # When a customer and a business owner describe the business differently, who is right?
+
+Salim thought he was selling premium business centres to hotels.  But what did hotel say instead? Who was right?
 
 ---
 # Meet them where they are, not where you want them to be.
 
 If you're a guide, you don't meet your customers at their destination.  You meet them where they are, and you guide them.
 ---
+class: action
 
+# Next round: 6 interviews per group
 
-# Next round
-
-## Get actionable quickly.  
-## End bad conversations quickly.
-
-Aim for 6 interviews per group.
+Get actionable quickly.  End bad conversations quickly.
 
 You have 20 minutes.  ** BE BACK ON TIME! **
 
+.timer[20 minutes]
 
 ---
-
+class: action
 
 # Analysis
 
 Run the same process as last time.
 
-* Cut out cards (2 minutes)
-* Lay them out and understand them. (5 minutes)
-* Update your Customer Compass (5 minutes)
+* Lay out the notes silently and understand them. (5 minutes)
+* Update your Use Case map(5 minutes)
 * Pick your next topic. (3 minutes)
 
 **This time** look for situations where there was a goal, and both obstacles and actions related to it. Those are commercial opportunities.
+
+.timer[13 minutes]
 
 ???
 Here, you want them to start time keeping by themselves.
@@ -1160,29 +1195,28 @@ If you're speaking to a specific enough customer group, this usually happens by 
 ---
 template: break
 ---
-
-# Being tired and being motivated
+## An important side note on
+# being tired and being motivated
 
 ---
 
 # Being an entrepreneur is hard work.
-## Being the right kind of entrepreneur is what keeps you motivated.
+## Being the right kind of entrepreneur for you is what keeps you motivated.
 
 ---
-# Types of entrepreneurs
+# Some different types of entrepreneurs
 
-## Digital Nomads
+* Digital Nomads
+* Scalable Startup
+* Craftsmen & Consultants
+* Build-Operate-Transfer
 
-## Scalable Startup
-
-## Craftsmen & Consultants
-
-## Build-Operate-Transfer
+Let's look at them in detail to see if they're right for you
 
 ---
 
 ## Digital Nomads
-Start businesses that allow them to stay on vacation forever.  Small information products that require no support but regular marketing. They earn $2,000-10,000 per month, and backpack around South East Asia.
+Start businesses that allow them to stay on vacation forever.  Small information products that require no support but regular marketing. They earn $2,000-5,000 per month, and backpack around South East Asia.
 
 ---
 ## Scalable Startup
@@ -1196,15 +1230,19 @@ These businesses are for people who want to be really good at a craft or service
 ---
 
 ## Build-Operate-Transfer
-You can build a business that's designed to be sold in a few years for hundreds of thousands to millions.  Build a service team of high-calibre people for a growing organisation, deliver the service on contract, and then sell them the business for the team. A rule of thumb for software developers is $50,000 per developer.
+You can build a business that's designed to be sold in a few years for hundreds of thousands to a few million.  Build a service team of high-calibre people for a growing organisation, deliver the service on contract, and then sell them the business for the team. 
 
 ---
 
 ## There are more types
-The important thing is that you choose the type of business that suits your goals.  Do you want to be a millionaire, or richer?  Do you want to work on the same thing or different projects?  Do you want to change the world for the better, or retire early?
+The important thing is that you choose the type of business that suits your goals.  
+* How rich do you want to be?
+* Do you want to work on the same thing or different projects?  
+* Do you want to change the world for the better, or retire early?
 
 ---
-# A structured process to launch your idea
+# Today we'll cover
+1. Thinking like an entrepreneur
 1. Understanding customers needs
 1. .highlight[Figuring out a good product]
 1. Deciding how to make money
@@ -1221,7 +1259,7 @@ class: ideas
 ## Pretend you're competing with Samsung to make the best TV.  What features can you think of?
 
 ---
-class: exercise
+class: action
 
 # Build a better TV for a specific customer group.
 
@@ -1231,13 +1269,14 @@ class: exercise
 
 --
 
-Customer groups: army soldiers, in the boardroom, African farmers, desert nomads, Hong Kong school children, American mothers
+.small[Customer groups: army soldiers, in the boardroom, African farmers, old retired couples, desert nomads, Hong Kong school children, American mothers, scientists]
 
 ---
-class: presentations
+class: present
 
 # Let's take a minute each to present our concepts
 
+.timer[1 minute]
 ---
 class: question
 
@@ -1359,7 +1398,8 @@ class: center
 
 
 ---
-# A structured process to launch your idea
+# Today we'll cover
+1. Thinking like an entrepreneur
 1. Understanding customers needs
 1. Figuring out a good product
 1. .highlight[Deciding how to make money]
@@ -1645,6 +1685,9 @@ I can help you with either.
   </body>
     <script type="text/javascript">
       $( function() {
+        $(".inline-timer").click(function() {
+          window.open("http://e.ggtimer.com/"+this.innerHTML);
+        });
         $(".timer").click(function() {
           window.open("http://e.ggtimer.com/"+this.innerHTML);
         });
